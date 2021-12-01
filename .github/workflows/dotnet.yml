@@ -86,7 +86,7 @@ jobs:
         uses: actions/setup-dotnet@v1.8.2
         with:
           dotnet-version: 3.1
-          source-url: https://nuget.pkg.github.com/linked-data-dotnet/index.json
+          source-url: https://nuget.pkg.github.com/fuerve/index.json
         env:
           NUGET_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
